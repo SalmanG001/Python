@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+        <link rel="icon" type="image" href="badge.png">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <style>
+            body{background-image: url(police\ bg.jpg);background-repeat: no-repeat; background-attachment: fixed;background-size: cover;}
+            a:hover {border:1px white;background-color:white;padding:3px;color:yellow}
+            .table{
+                float:left}
+            .line{float:right;background-color: rgba(38, 0, 255, 0.8);width:70%;padding:10px}
+            .dropdown {float: left;overflow: hidden;}
+            .dropdown .dropbtn {font-size: 16px;  border: none;outline: none;color: white;padding: 14px 16px;background-color: inherit;font-family: inherit;margin: 0;}
+            .dropdown-content {display: none;position: absolute;background-color: red;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1}
+            .dropdown-content a {float: none;color: black;padding: 12px 16px;text-decoration: none;display: block;text-align: left}
+            .dropdown-content a:hover {background-color: #ddd;}
+            .dropdown:hover .dropdown-content {display: block;}
+            .flex{display: flex;background-color: rgba(38, 0, 255, 0.8);flex-direction: column;justify-content: space-around;align-items: left;width:max-content}
+            .flex > div {background-color: rgba(255, 0, 0, 0.5);margin: 7px;font-size: 30px;color:black;}
+        </style>
+    </head>
+    <body>
+       <p style="text-align: center;color:red;font-size:25px;font-family: 'Times New Roman', Times, serif;">       
+        وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُواْ بِالْعَدْلِ
+        </p>
+        <p style="color:blue;font-size:15px;text-align: center;">And when you judge between people, judge with justice. (Al Quran)</p>
+        <div >
+            <img src="logo police.png" style="width:300px;height: 85px;" title="Police" usemap="#img">
+                <map name="img">
+                    <area shape="rect" coords="2,7,291,86" href="https://en.wikipedia.org/wiki/Punjab_Police_(Pakistan)">
+                </map>
+        </div>
+        <table class="line">
+            <tr>
+                <th style="text-align:center;"><a href="home.html" title="Home" style="color:red;text-decoration: none;">HOME</a></th>
+                <th style="text-align:center"><a href="menu.html" title="Home" style="color:red;text-decoration: none;">Menu</a></th>
+                <th style="text-align:center">
+                    <div class="dropdown">
+                    <button class="dropbtn" style="color:yellow;font-size:18px;font-family:'Times New Roman';"><b>About</b>
+                        <i class="fa fa-caret-down"></i>
+                    </button >
+                    <div class="dropdown-content">
+                        <p title="Muhammad Salman Younas"  style="color:blue;text-align:left;"> Name</p>
+                        <p title="University Of Punjab,Lahore" style="color:blue;text-align:left;"> Adress</p>
+                        <p title="0336-4245601" style="color:blue;text-align:left;"> Contact No.</p>
+                    </div>
+                </th>
+            </tr>
+        </table>
+        <div class="flex">
+            <div><a href="fir.html" title="Directly Submitted to IGP." style="text-decoration: none;font-size: 35px;" ><pre><b>F I R</b></pre></a></div>
+            <div><a href="structure.html" title="Click to check hierachy in Police Department." style="text-decoration: none;font-size: 35px;" ><pre><b>Structure of Department</b></pre></a></div>
+            <div><a href="numbers.html" title="Plz Call in case of any EMERGENCY!." style="text-decoration: none;font-size: 35px;" ><pre><b>Helpline Numbers</b></pre></a></div>
+       </div>
+       <div>
+        <img src="emer.png" style="width:1520px;height:400px">
+       </div>
+    </body>
+                    
